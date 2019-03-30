@@ -3,8 +3,6 @@ import { NgModule } from '@angular/core';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { AuthGuard } from './guards/auth.guard'
-import { SessionGuard } from './guards/session.guard'
 
 import { AppComponent } from './app.component';
 import { appRouting } from './app-routing.module';
@@ -12,10 +10,6 @@ import { environment } from '../environments/environment';
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { SignupComponent } from './components/signup/signup.component';
-import { AuthService } from './services/auth/auth.service';
-import { HeaderHomeComponent } from './components/header-home/header-home.component';
-import { CreatePostComponent } from './components/create-post/create-post.component';
-import { BodyPostComponent } from './components/body-post/body-post.component';
 import { SweetAlert2Module } from '@toverux/ngx-sweetalert2';
 import { HeaderComponent } from './components/header/header.component';
 
@@ -25,9 +19,6 @@ import { HeaderComponent } from './components/header/header.component';
     LoginComponent,
     SignupComponent,
     HomeComponent,
-    HeaderHomeComponent,
-    CreatePostComponent,
-    BodyPostComponent,
     HeaderComponent,
   ],
   imports: [
@@ -44,7 +35,7 @@ import { HeaderComponent } from './components/header/header.component';
       cancelButtonClass: 'btn btn-warning'
     })
   ],
-  providers: [AuthService, AuthGuard, SessionGuard],
+  providers: [],
   bootstrap: [AppComponent]
 })
 // faltaria archivo donde estan metodos de firebase

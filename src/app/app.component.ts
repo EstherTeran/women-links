@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { RegisterService } from './services/register/register.service';
 // declare var $
 @Component({
   selector: 'my-app',
@@ -219,10 +218,7 @@ export class AppComponent {
     },
   ];
 
-  constructor(private _registerService: RegisterService){
-    
 
-  }
  
 
 }
