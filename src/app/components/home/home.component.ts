@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { AuthService } from '../../services/auth/auth.service';
 import { Router } from '@angular/router';
-import { RegisterService } from 'src/app/services/register/register.service';
 
 @Component({
   selector: 'app-home',
@@ -10,9 +8,9 @@ import { RegisterService } from 'src/app/services/register/register.service';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private  _registerService: RegisterService) { }
+  constructor() { }
 
   ngOnInit() {
-    this._registerService.writeComunities().then(console.log);
+
   }
 }
