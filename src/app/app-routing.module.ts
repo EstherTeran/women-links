@@ -7,10 +7,14 @@ import { AuthGuard } from './guards/auth.guard'
 import { SessionGuard } from './guards/session.guard';
 
 const routes: Routes = [
-  { path: 'login', component: LoginComponent, canActivate: [SessionGuard]},
-  { path: '', pathMatch: 'full', redirectTo: 'login'},
-  { path: 'signup', component: SignupComponent, canActivate: [SessionGuard]},
-  { path: 'home', component: HomeComponent,  canActivate: [AuthGuard]},
+  // { path: 'login', component: LoginComponent, canActivate: [SessionGuard]},
+  // { path: '', pathMatch: 'full', redirectTo: 'login'},
+  // { path: 'signup', component: SignupComponent, canActivate: [SessionGuard]},
+  // { path: 'home', component: HomeComponent,  canActivate: [AuthGuard]},
+  // { path: 'start', component: LoginComponent},
+  // { path: '', pathMatch: 'full', redirectTo: 'start'},
+  // { path: 'communities', component: SignupComponent},
+  // { path: 'home', component: HomeComponent,  canActivate: [AuthGuard]},
 ];
 
 NgModule({

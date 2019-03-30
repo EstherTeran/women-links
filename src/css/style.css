@@ -1,0 +1,130 @@
+/* You can add global styles to this file, and also import other style files */
+/* .padding-none {
+  padding: 0;
+}
+.primary-color {
+	background-color: #2b485d;
+}
+.pointer {
+  cursor: pointer;
+}
+body {
+  background-color: #f7f9fa
+}
+.primary-text {
+ color: #2b485d;
+} */
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif !important;
+}
+a:hover{
+  color: #888888 !important;
+  text-decoration: none;
+}
+.navbar{
+    background-color: #ffffff;
+}
+.navbar a{
+    color: #888888;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  bottom: 3rem;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+.carousel-caption {
+  z-index: 10;
+  }
+.card-body .contact{
+    background-color: #E8963B;
+    border: none;
+    float: right;
+    margin-top: 10px;
+}
+.name,
+.type-lt,
+.type-com {
+    margin: 0;
+    font-size: 14px;
+    color: #9A9A9A;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  border: 0;
+}
+.ml-auto, .mx-auto {
+  margin-left: auto!important;
+}
+.top-bar .nav-link:hover, .top-bar .nav-item.active a {
+ 
+  border-bottom: 2px solid #E8963B;
+  border-radius: 0;
+}
+.top-bar .nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 18px!important;
+}
+.top-bar{
+  transition:500ms ease;
+  background:white;
+}
+
+.top-bar.scrolled{
+  background:#000;
+ }
+ .top-bar.scrolled a{
+     color: #ffffff;
+ }
+ /* .top-bar.original.scrolled{
+     display: none;
+ } */
+.jumbotron{
+  background-color: #ffffff !important;
+}
+.tarj{
+  background-color: #f3f3f3;
+  padding: 30px;
+}

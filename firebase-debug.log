@@ -1,0 +1,28 @@
+[debug] [2019-03-30T18:52:54.236Z] ----------------------------------------------------------------------
+[debug] [2019-03-30T18:52:54.238Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\L-125\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2019-03-30T18:52:54.238Z] CLI Version:   6.5.0
+[debug] [2019-03-30T18:52:54.238Z] Platform:      win32
+[debug] [2019-03-30T18:52:54.238Z] Node Version:  v10.15.1
+[debug] [2019-03-30T18:52:54.239Z] Time:          Sat Mar 30 2019 13:52:54 GMT-0500 (GMT-05:00)
+[debug] [2019-03-30T18:52:54.240Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-03-30T18:52:54.249Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-03-30T18:52:54.249Z] > authorizing via signed-in user
+[debug] [2019-03-30T18:52:54.249Z] [iam] checking project social-network-2-0 for permissions ["firebase.projects.get","firebasedatabase.instances.update"]
+[debug] [2019-03-30T18:52:54.251Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/social-network-2-0:testIamPermissions  
+
+[debug] [2019-03-30T18:52:55.648Z] <<< HTTP RESPONSE 200
+[debug] [2019-03-30T18:52:55.654Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/social-network-2-0  
+ 
+[debug] [2019-03-30T18:52:57.196Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'social-network-2-0'...
+[info] 
+[info] i  deploying database
+[debug] [2019-03-30T18:52:57.493Z] TypeError: rulesConfig.forEach is not a function
+    at module.exports (C:\Users\L-125\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\database\prepare.js:20:17)
+    at _chain (C:\Users\L-125\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:22:40)
+    at C:\Users\L-125\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:63:16
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[error] 
+[error] Error: An unexpected error has occurred.

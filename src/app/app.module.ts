@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireAuthModule } from '@angular/fire/auth';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AuthGuard } from './guards/auth.guard'
 import { SessionGuard } from './guards/session.guard'
 
@@ -17,6 +17,7 @@ import { HeaderHomeComponent } from './components/header-home/header-home.compon
 import { CreatePostComponent } from './components/create-post/create-post.component';
 import { BodyPostComponent } from './components/body-post/body-post.component';
 import { SweetAlert2Module } from '@toverux/ngx-sweetalert2';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -26,12 +27,14 @@ import { SweetAlert2Module } from '@toverux/ngx-sweetalert2';
     HomeComponent,
     HeaderHomeComponent,
     CreatePostComponent,
-    BodyPostComponent
+    BodyPostComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
     appRouting,
     FormsModule,
+    ReactiveFormsModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAuthModule,
     SweetAlert2Module.forRoot({
