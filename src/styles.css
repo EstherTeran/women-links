@@ -118,3 +118,15 @@ a:hover{
      height: auto;
     }
   }
+
+  .evenly {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+ .card {
+     margin-bottom: 3px;
+ }
