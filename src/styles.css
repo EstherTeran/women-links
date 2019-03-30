@@ -1,35 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
-/* .padding-none {
-  padding: 0;
-}
-.primary-color {
-	background-color: #2b485d;
-}
-.pointer {
-  cursor: pointer;
-}
-body {
-  background-color: #f7f9fa
-}
-.primary-text {
- color: #2b485d;
-} */
 *{
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif !important;
-  }
-  a:hover{
+}
+a:hover{
     color: #888888 !important;
     text-decoration: none;
-  }
+}
   .navbar{
       background-color: #ffffff;
   }
   .navbar a{
       color: #888888;
   }
-  
+
   .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
@@ -38,14 +22,14 @@ body {
     -ms-user-select: none;
     user-select: none;
   }
-  
+
   @media (min-width: 768px) {
     .bd-placeholder-img-lg {
       font-size: 3.5rem;
     }
   }
   /* Carousel base class */
-  .carousel {
+.carousel {
     margin-bottom: 4rem;
   }
   /* Since positioning the image, we need to help out the caption */
@@ -121,11 +105,10 @@ body {
    /* .top-bar.original.scrolled{
        display: none;
    } */
-  .jumbotron{
+.jumbotron{
     background-color: #ffffff !important;
-  }
-  .tarj{
+}
+.tarj{
     background-color: #f3f3f3;
     padding: 30px;
-  }
-  
+}

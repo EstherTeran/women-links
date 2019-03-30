@@ -18,7 +18,7 @@ export class AppComponent {
       socialnetworks: [{ facebook: 'https://www.facebook.com/DemusPeru/?ref=br_rs' }],
       website: 'https://www.demus.org.pe',
       address: 'Jirón Caracas 2624 Jesús María, Lima - Perú',
-      image: 'https://scontent-scl1-1.xx.fbcdn.net/v/t1.0-9/41205919_2478608128830886_4911848685605748736_n.png?_nc_cat=105&_nc_ht=scontent-scl1-1.xx&oh=321606fe53c612d060735fd6438a3287&oe=5D0AF1EE',
+      image: 'https://user-images.githubusercontent.com/39272944/55281478-011a0300-5303-11e9-8217-f04bd8bb355c.png',
       members: [
       ],
     },
@@ -31,7 +31,7 @@ export class AppComponent {
       socialnetworks: [{ facebook: 'https://www.facebook.com/pg/manuela.peru/' }],
       website: 'http://fondationforge.org/tag/peru/',
       address: ' Jr. Antonio Miroquesada 327 Lima, Perú.',
-      image: 'https://scontent-scl1-1.xx.fbcdn.net/v/t1.0-9/43146199_2511946982179281_2607833489919180800_n.png?_nc_cat=104&_nc_ht=scontent-scl1-1.xx&oh=47adf35b74c062caae5a3c7e6ed5a393&oe=5D0DA363',
+      image: 'https://user-images.githubusercontent.com/39272944/55281481-01b29980-5303-11e9-9f74-81124fb83960.png',
       members: [
       ],
     },
@@ -46,22 +46,7 @@ export class AppComponent {
       ],
       website: '',
       address: '',
-      image: 'https://scontent.flim16-3.fna.fbcdn.net/v/t1.0-9/55760056_2191108847602056_3554574887618084864_o.jpg?_nc_cat=104&_nc_ht=scontent.flim16-3.fna&oh=c3a552c7ecc0cddc623e321002da8dac&oe=5D3DDE1A',
-      members: [
-      ],
-    },
-    {
-      name: 'Fundación Forge',
-      type: 'Fundación',
-      country: ['Perú'],
-      tags: ['educacion', 'becas'],
-      description: `Facilitar una inserción laboral de calidad a jóvenes pertenecientes a familias de bajos recursos económicos, a través de un sistema innovador de formación y empleo.`,
-      socialnetworks: [
-        { facebook: 'https://www.facebook.com/fundacionforgeperu/' }
-      ],
-      website: 'http://fondationforge.org/tag/peru/',
-      address: 'Av. Arequipa 3353, San Isidro 15046',
-      image: 'https://scontent-scl1-1.xx.fbcdn.net/v/t1.0-9/12043068_1047243418649526_4564659655414504258_n.jpg?_nc_cat=101&_nc_ht=scontent-scl1-1.xx&oh=915e279f11d116c1fceb71ca721ff515&oe=5D3F87E6',
+      image: 'https://user-images.githubusercontent.com/39272944/55281476-00816c80-5303-11e9-9efb-45ed69e9bad7.png',
       members: [
       ],
     },
@@ -76,7 +61,7 @@ export class AppComponent {
       ],
       website: 'https://www.rnpm.org.pe/',
       address: 'Av. 6 de agosto 759. Jesus Maria',
-      image: 'https://scontent-scl1-1.xx.fbcdn.net/v/t1.0-9/19554351_1444431352315443_7560110311139007871_n.jpg?_nc_cat=109&_nc_ht=scontent-scl1-1.xx&oh=225989606e49373eb743f6d3eba33ecb&oe=5D3D3749',
+      image: 'https://user-images.githubusercontent.com/39272944/55281473-ffe8d600-5302-11e9-8586-ed93150d2761.png',
       members: [
       ],
     },
@@ -122,7 +107,7 @@ export class AppComponent {
       ],
       website: '',
       address: '',
-      image: 'https://scontent-scl1-1.xx.fbcdn.net/v/t1.0-9/28870222_592371871109016_610502218805212876_n.png?_nc_cat=101&_nc_ht=scontent-scl1-1.xx&oh=6982d2ae35307797c4238c40bdf3b187&oe=5D1371E0',
+      image: 'https://user-images.githubusercontent.com/39272944/55281470-ffe8d600-5302-11e9-85dc-da733275ba41.png',
       members: [
       ],
     },
@@ -137,7 +122,7 @@ export class AppComponent {
       ],
       website: 'http://www.witperu.org/',
       address: '',
-      image: 'https://scontent-scl1-1.xx.fbcdn.net/v/t1.0-9/36265018_897278357126688_5569359190226370560_n.png?_nc_cat=108&_nc_ht=scontent-scl1-1.xx&oh=d8d4bb79edf9af7e15b604c9ed76479e&oe=5D3F5F8B',
+      image: 'https://user-images.githubusercontent.com/39272944/55281474-00816c80-5303-11e9-8c20-0542afb3389b.png',
       members: [
       ],
     },
@@ -152,7 +137,7 @@ export class AppComponent {
       ],
       website: 'http://bdpi.cultura.gob.pe/node/100',
       address: '',
-      image: 'https://scontent-scl1-1.xx.fbcdn.net/v/t1.0-9/21730871_1490483204373981_3783250819449511932_n.png?_nc_cat=102&_nc_ht=scontent-scl1-1.xx&oh=151bfcaba2efcae544fb78134360a498&oe=5D116129',
+      image: 'https://user-images.githubusercontent.com/39272944/55281479-011a0300-5303-11e9-85d3-ada5deadf4e6.png',
       members: [
       ],
     },
@@ -167,7 +152,7 @@ export class AppComponent {
       ],
       website: 'https://www.laboratoria.la/',
       address: '',
-      image: 'https://scontent-scl1-1.xx.fbcdn.net/v/t1.0-9/29598069_923498544491220_7607067312275824752_n.jpg?_nc_cat=1&_nc_ht=scontent-scl1-1.xx&oh=20a047c6f247808e9526082ade7657ce&oe=5D43F93D',
+      image: 'https://user-images.githubusercontent.com/39272944/55281480-011a0300-5303-11e9-9059-50b843a4981f.png',
       members: [
       ],
     },
@@ -182,7 +167,7 @@ export class AppComponent {
       ],
       website: 'https://www.cmmcolombia.org',
       address: '',
-      image: 'https://scontent-scl1-1.xx.fbcdn.net/v/t1.0-9/11707612_1102654253082533_339853324240622397_n.png?_nc_cat=102&_nc_ht=scontent-scl1-1.xx&oh=1b4da0186c83d3e646fef2b49571ae01&oe=5D4B15C5',
+      image: 'https://user-images.githubusercontent.com/39272944/55281477-011a0300-5303-11e9-9fb1-cea23b2e6292.png',
       members: [
       ],
     },
@@ -197,7 +182,7 @@ export class AppComponent {
       ],
       website: 'https://www.fundacionwwbcolombia.org',
       address: 'Av 5N No. 16-78',
-      image: 'https://scontent-scl1-1.xx.fbcdn.net/v/t1.0-9/10665738_916511505029990_6856952137127120670_n.png?_nc_cat=103&_nc_ht=scontent-scl1-1.xx&oh=1d311522a90a64ff81b9245bb2bcad78&oe=5D3E244B',
+      image: 'https://user-images.githubusercontent.com/39272944/55281475-00816c80-5303-11e9-84b9-e55d4ff066ee.png',
       members: [
       ],
     },
@@ -212,13 +197,11 @@ export class AppComponent {
       ],
       website: 'http://www.unwomen.org',
       address: '',
-      image: 'https://scontent-scl1-1.xx.fbcdn.net/v/t1.0-9/12359898_1096177313728130_8345971031766138643_n.png?_nc_cat=101&_nc_ht=scontent-scl1-1.xx&oh=17172e3628d351db9289e63d208e6ccf&oe=5D034A98',
+      image: 'https://user-images.githubusercontent.com/39272944/55281472-ffe8d600-5302-11e9-9f15-2dfc2934968a.png',
       members: [
       ],
     },
-  ];
-
-
+  ]
  
 
 }
