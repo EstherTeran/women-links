@@ -89,21 +89,23 @@
 </section>
 <section class="tarj">
     <div class="container">
-        <div class="d-flex evenly">
-           <div *ngFor="let org of dataOrgs" class="col-xs-12 col-sm-6 col-md-4">
-                <div class="card shadow-sm">
-                    <!-- <div > -->
-                        <img [src]="org.image" class="img-fluid" alt="">
-                    <!-- </div> -->
-                    <div class="card-body">
-                        <p class="name">Nombre: {{org.name}}</p>
-                        <p class="type-com">Tipo: {{org.type}}</p>
-                        <p class="type-lt">Categorías: Literatura, investigación</p>
-                        <p><a class="btn btn-secondary contact" href="#" role="button">Contactar</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="d-flex evenly">
+                        <div *ngFor="let org of dataOrgs" class="col-xs-12 col-sm-6 col-md-4">
+                             <div class="card shadow-sm">
+                                 <!-- <div > -->
+                                     <img [src]="org.image" class="img-fluid" alt="">
+                                 <!-- </div> -->
+                                 <div class="card-body">
+                                     <p class="name">Nombre: {{org.name}}</p>
+                                     <p class="type-com">Tipo: {{org.type}}</p>
+                                     <p class="type-lt">Categorías: Literatura, investigación</p>
+                                     <p><a class="btn btn-secondary contact" href="#" role="button">Contactar</a></p>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+        </div>   
     </div>
 </section>
 
