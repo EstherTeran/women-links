@@ -76,7 +76,7 @@ export class AppComponent {
       ],
       website: 'http://masmujeresux.com/',
       address: '',
-      image: 'https://scontent-scl1-1.xx.fbcdn.net/v/t1.0-9/37132276_199807154025862_1957931326589894656_n.png?_nc_cat=103&_nc_ht=scontent-scl1-1.xx&oh=b66c7f71e736317e245bf4ad505ea0e2&oe=5D411583',
+      image: 'https://user-images.githubusercontent.com/39272944/55281890-5efd1980-5308-11e9-8684-a199dfc73d37.png',
       members: [
         {
           name: 'Cinthy Revilla',

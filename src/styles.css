@@ -112,3 +112,8 @@ a:hover{
     background-color: #f3f3f3;
     padding: 30px;
 }
+@media (max-width: 1200px) and (min-width: 992px){
+    .d-flex evenly{
+     text-align: center
+    }
+  }
